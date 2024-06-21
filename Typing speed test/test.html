@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="display"></div>
+    <input id="btn" type="button" value="2">
+    <input id="btn" type="button" value="3">
+    <input id="btn" type="button" value="+">
+    <div class="buttons">
+        
+    </div>
+    <script>
+       let display = document.querySelector('.display');
+       let btns = document.querySelectorAll('input');
+       console.log(btn);
+
+       btns.forEach(btn =>{
+           btn.addEventListener('click', (e)=>{
+                display.textContent += e.target.value;
+           })
+       })
+       
+
+
+    
+        
+        
+    </script>
+</body>
+</html>

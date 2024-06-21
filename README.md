@@ -1,1 +1,1 @@
-# Personal-projects
+ A file containing all my personal projects. these projects are mostly for learning purposes

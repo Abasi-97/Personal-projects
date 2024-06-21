@@ -1,0 +1,70 @@
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(229, 239, 245);
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+}
+.header h1{
+    font-weight: 300;
+    font-size: 40px;
+}
+.container{
+    margin: 5em auto;
+    max-width: 600px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+}
+.passage{
+    font-weight: 300;
+    padding: 2em;
+    display: block;
+}
+.passage h2{
+    text-align: end;
+    font-size: 30px;
+}
+.passage h3{
+    text-align: start;
+    font-size: 20px;
+    margin-block-end: .5em;
+}
+.passage p{
+    line-height: 20px;
+    text-align: start;
+    margin-block-end: .5em;
+}
+.begin, .Submit{
+    margin-left: 430px;
+    padding: .5em;
+    color: white;
+    background-color: rgb(23, 207, 152);
+    box-sizing: border-box;
+    border-width: 0;
+    width: 100px;
+    cursor: pointer;
+}
+.text-container{
+    padding: 2em;
+    box-sizing: border-box;
+}
+.text-container textarea{
+    width: 100%;
+    padding: 2em;
+    box-sizing: border-box;
+    margin-block-end: 1em;
+}
+.message{
+    padding: 2em;
+}
+mark{
+    background-color: transparent;
+}

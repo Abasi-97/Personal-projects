@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d9d9d9;
+    background-color: #d9d9d9;
+}
+.timer{
+    left: 0;
+    padding-left: 2em;
+}
+.timer h1{
+    font-weight: 200;
+    font-size: 40px;
+    text-align: start;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+form{
+    padding: 2em;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+form select{
+    padding: 1em;
+    font-size: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: #d9d9d9;
+}
+form select:focus{
+    outline: none;
+}
+.container{
+    padding: 0;
+    width: 700px;
+    height: 450px;
+    background-color: black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.circle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle{
+    display: none;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: conic-gradient(green 360deg, transparent 0deg);
+    justify-content: center;
+    align-items: center;
+    animation: ease;
+}
+.inner-circle{
+    background-color: black;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-weight: 100;
+    font-size: 40px;
+}
+.button-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+button{
+    background-color: rgb(31, 134, 31);
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: #d9d9d9;
+    animation: ease-in-out;
+    cursor: pointer;
+}
+button:active{
+    margin-top: 5px;
+}
